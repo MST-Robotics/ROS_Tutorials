@@ -1,0 +1,6 @@
+<launch>
+    <env name="ROS_MASTER_URI" value="http://localhost:11311"/>
+    
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+    <node pkg="turtle_control" type="turtle_control_node" name="turtle_control_node"/>
+</launch>
